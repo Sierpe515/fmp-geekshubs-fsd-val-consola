@@ -251,7 +251,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 18px;
+    gap: 10px;
     margin: 5px;
 }
 
@@ -264,7 +264,7 @@ body {
     border: 1px black solid;
     border-radius: 50px;
     background-color: rgb(26, 26, 26);
-    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset;
+    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset, 1px 3px 4px rgba(255, 255, 255, 0.185) inset;
     border: 3px groove rgb(36, 36, 36);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -286,7 +286,7 @@ body {
     border: 1px black solid;
     border-radius: 50px;
     background-color: rgb(26, 26, 26);
-    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset;
+    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset, 1px 3px 4px rgba(255, 255, 255, 0.185) inset;
     border: 3px groove rgb(36, 36, 36);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -308,7 +308,7 @@ body {
     border: 1px black solid;
     border-radius: 50px;
     background-color: rgb(26, 26, 26);
-    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset;
+    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset, 1px 3px 4px rgba(255, 255, 255, 0.185) inset;
     border: 3px groove rgb(36, 36, 36);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -330,7 +330,7 @@ body {
     border: 1px black solid;
     border-radius: 50px;
     background-color: rgb(26, 26, 26);
-    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset;
+    box-shadow: 3px 3px 3px black, -6px -3px 3px black inset, 1px 3px 4px rgba(255, 255, 255, 0.185) inset;
     border: 3px groove rgb(36, 36, 36);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -366,6 +366,7 @@ body {
 
 .box8 {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
@@ -377,15 +378,14 @@ body {
     height: 70%;
     width: 90%;
     border-radius: 15px;
-    background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
-    background-size: 6px 8px;
-    box-shadow: 2px 2px 5px;
+    background-color: rgb(29, 29, 29);
+    box-shadow: 2px 2px 5px black, 2px 2px 2px rgba(255, 255, 255, 0.096) inset;
 }
 
 .box9 {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
@@ -396,7 +396,7 @@ body {
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
-    box-shadow: -20px 0px 30px 0px inset;
+    /*box-shadow: -15px 0px 20px inset;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
