@@ -38,6 +38,7 @@ body {
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
+    box-shadow: inset 0px 10px 15px, 0px -5px 10px inset rgba(255, 255, 255, 0.562);
 }
 
 .box1b {
@@ -207,7 +208,6 @@ body {
 .rombo {
     height: 60%;
     width: 80%;
-    
     transform: rotate(45dg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -282,56 +282,62 @@ body {
 }
 
 .box10 {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
+    box-shadow: -20px 0px 30px 0px inset;
 }
 
 .box11 {
+    grid-column: 1 / 3;
+    grid-row: 4 / 6;
     border: 1px black solid;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
+    border-radius: 0 0 0 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6fr 1fr;
 }
 
-.box12 {
-    border: 1px black solid;
+.agarra {
+    border: 1px solid;
+}
+
+.agarright {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-right: 10px;
-    background-color: rgb(46, 46, 46);
-    background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
-    background-size: 6px 8px;
+    padding-right: 20px;
+}
+
+.agarleft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
 
 .steam {
     background-color: aquamarine;
     height: 20%;
-    width: 50%;
+    width: 60%;
     border: 1px black solid;
     border-radius: 50px;
 }
 
 .box13 {
+    grid-column: 4 / 6;
+    grid-row: 4 / 6;
     border: 1px black solid;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
-}
-
-.box14 {
-    border: 1px black solid;
-    border-radius: 0 0 200% 0;
-    background-color: rgb(46, 46, 46);
-    background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
-    background-size: 6px 8px;
-}
-
-.box15 {
-    grid-column: 1 / 3;
-    border: 1px black solid;
+    border-radius: 0 0 150px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 6fr 1fr;
 }
 
 .box16 {
@@ -343,7 +349,18 @@ body {
     background-size: 6px 8px;
 }
 
-.box17 {
-    grid-column: 4 / 6;
-    border: 1px black solid;
+.agar4 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.agar3 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.agab2 {
+    border-left: 1px solid;
 }
