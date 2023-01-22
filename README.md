@@ -11,7 +11,7 @@
 3. Manejo (#manejo)
 4. Cómo se ha hecho (#como-se-ha-hecho)
 5. Licencia (#licencia)
-6. Sección de bugs conocidos (#seccion-de-bugs-conocidos)
+6. Sección de problemas conocidos (#seccion-de-bugs-conocidos)
 7. Créditos (#creditos)
 
 ***
@@ -44,4 +44,24 @@ En HTML se ha dado forma a la estructura básica de contenedores y en CSS se les
 Se han combinado el flow y el grid para colocar los contenedores (div) en el lugar deseado.
 También se han investigado y aplicado diversas propiedades y valores de CSS para tratar de dar un aspecto más realista al objeto, tales como box-shadow, background-image (linear gradient, radial gradient...), border o border-radius.
 Uno de los momentos críticos del proyecto fue la inserción de las agarraderas laterales, para las que hubo que describir una serie de curvas, a traves de la propiedad border-radius, que antes de alcanzar el resultado final, llegaron a lucir un aspecto deplorable.
+Otro de las fases de mayor dificultad fue la realización de los botones, para cuyo resultado hubo que rotar un div, para que en lugar de trabajar sobre un cuadrado, hacerlo sobre un rombo. Y, posteriormente, volver a rotar a la inversa los elementos de su interior.
 De la misma manera se han aplicado elementos :hover para que la consola reaccione a la interacción con el cursor.
+Las únicas imagenes utilizadas en la realización de la consola son las pertenecientes a los iconos de los botones, pause, menú y select.
+
+***
+
+### Licencia
+
+La licencia utilizada es una Creative Commons Legal Code.
+
+### Sección de problemas conocidos
+
+El principal escoyo que no se ha podido solucionar en la versión actual de la consola es la interacción del :hover con la cruceta.
+Hasta donde alcanzan mis conocimientos, no he conseguido que un :hover alojado en en div interactue con elementos de otros divs. Así pues, al presionar cualquiera de las direcciones de la cruceta, el :hover interactua únicamente con su div, en lugar de hacerlo con todos los que componen la cruceta. Cinco.
+También me hubiera custado que al presionar un botón, por ejemplo el de Steam, se encendiese la pantalla. Pero nos enfrentamos de nuevo al mismo problema. Por esta razón únicamente se ha utilizado un .hover para activar la pantalla al pasar el cursor sobre la misma.
+
+***
+
+### Créditos
+
+Este proyecto ha sido realizado únicamente por mí, Fernando Martínez Pardo, estudiante de la edición de Enero de 2023 de GeeksHubs Academy.
