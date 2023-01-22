@@ -28,7 +28,7 @@ También cabe decir que este proyecto se ha desarrollado en un ámbito educativo
 En dicho proyecto se nos pedía que replicasemos cualquier consola o hardware relacionado con el mundo de los videojuevos, para poner en práctica los conocimientos adquiridos. Especialmente los relacionados con el Layaout, tanto el flow como el grid.
 Yo he elegido la Steam Deck en parte por su novedad, en parte por su complejidad.
 
-image.png
+![Rep Steam Deck](https://user-images.githubusercontent.com/121863208/213922069-437f4fa6-0aaa-4500-9605-a8a5ff915230.jpg)
 
 ***
 
