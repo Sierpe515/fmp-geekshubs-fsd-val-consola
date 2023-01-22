@@ -386,7 +386,7 @@ body {
     border-top: 3px ridge rgb(22, 22, 22);
     border-right: 3px ridge rgb(24, 24, 24);
     border-radius: 0 60% 0 0;
-    box-shadow: 2px -3px 10px, 3px 3px 5px rgba(255, 255, 255, 0.13) inset;
+    box-shadow: 2px -3px 10px, 3px 3px 5px rgba(255, 255, 255, 0.13) inset, 30px 20px 10px inset rgba(0, 0, 0, 0.534);
     margin-right: -3px;
     background-color: rgb(10, 10, 10);
 }
@@ -434,7 +434,7 @@ body {
     border-top: 3px ridge rgb(22, 22, 22);
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 60% 0 0 0;
-    box-shadow: -2px -2px 10px,  -3px 3px 5px rgba(255, 255, 255, 0.13) inset;
+    box-shadow: -2px -2px 10px, -3px 3px 5px rgba(255, 255, 255, 0.13) inset, -30px 20px 10px inset rgba(0, 0, 0, 0.534);
     margin-left: -4px;
     background-color: rgb(10, 10, 10);
 }
@@ -677,7 +677,7 @@ body {
     box-shadow: 3px -3px 10px;
     margin-top: -3px;
     margin-right: -2px;
-    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to bottom left, rgb(10, 10, 10), rgb(10, 10, 10), rgb(10, 10, 10), rgb(10, 10, 10),rgb(3, 3, 3));
 }
 
 .curve2 {
@@ -685,7 +685,7 @@ body {
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 70% 0 0 0;
     box-shadow: -2px -2px 6px;
-    background-color: rgb(10, 10, 10);
+    background-image: linear-gradient(to bottom right, rgb(10, 10, 10), rgb(10, 10, 10), rgb(10, 10, 10), rgb(10, 10, 10),rgb(3, 3, 3));
     margin-top: -3px;
     margin-left: -2px;
 }
