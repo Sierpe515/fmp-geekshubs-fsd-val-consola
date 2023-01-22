@@ -89,7 +89,7 @@ body {
 
 .cross2 {
     /* background-color: gray; */
-    border-top: 2px groove rgb(114, 114, 114);
+    border-top: 2px groove rgba(114, 114, 114, 0.678);
     border-left: 2px groove;
     border-right: 2px solid;
     border-radius: 10px 10px 0 0;
@@ -387,7 +387,7 @@ body {
     border-right: 3px ridge rgb(24, 24, 24);
     border-radius: 0 60% 0 0;
     box-shadow: 2px -3px 10px, 3px 3px 5px rgba(255, 255, 255, 0.13) inset;
-    margin-right: -2px;
+    margin-right: -3px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -435,7 +435,7 @@ body {
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 60% 0 0 0;
     box-shadow: -2px -2px 10px,  -3px 3px 5px rgba(255, 255, 255, 0.13) inset;
-    margin-left: -2px;
+    margin-left: -4px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -514,11 +514,160 @@ body {
 
 .slot1 {
     grid-column: 1 / 3;
-    grid-template-columns: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10px;
+}
+
+.altavozl1 {
+    grid-column: 1 / 3;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl2 {
+    grid-column: 3 / 5;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl3 {
+    grid-column: 5 / 7;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl4 {
+    grid-column: 7 / 9;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl5 {
+    grid-column: 2 / 4;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl6 {
+    grid-column: 4 / 6;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl7 {
+    grid-column: 6 / 9;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl8 {
+    grid-column: 3/ 5;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl9 {
+    grid-column: 5 / 7;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozl10 {
+    grid-column: 7 / 9;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
 }
 
 .slot2 {
     grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 10px;
+}
+
+.altavozr1 {
+    grid-column: 1 / 3;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr2 {
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+    grid-column: 3 / 5;
+}
+
+.altavozr3 {
+    grid-column: 5 / 7;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr4 {
+    grid-column: 7 / 9;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr5 {
+    grid-column: 1 / 4;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr6 {
+    grid-column: 4 / 6;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr7 {
+    grid-column: 6 / 8;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr8 {
+    grid-column: 1 / 3;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr9 {
+    grid-column: 3 / 5;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
+}
+
+.altavozr10 {
+    grid-column: 5 / 7;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.733), -1px -1px 1px rgb(39, 39, 39);
 }
 
 .curve1 {
