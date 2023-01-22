@@ -3,10 +3,15 @@ body {
 }
 
 .container1 {
-    background-color: aqua;
+    background-image: url(../img/teahub.io-wood-wallpaper-34466.jpg);
     height: 100vh;
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
+    background-repeat: no-repeat;
+}
+
+.title {
+    height: 200px;
 }
 
 .main {
@@ -207,13 +212,20 @@ body {
     justify-content: center;
     align-items: center;
     border: 2px solid;
+    box-shadow: 50px 80px 80px;
 }
 
 .pantalla {
-    background-color: rgb(27, 27, 27);
+    background-image: linear-gradient(to right, rgb(27, 27, 27),rgba(117, 117, 117, 0.404),rgb(27, 27, 27));
     height: 90%;
     width: 90%;
     border: 1px solid;
+}
+
+.pantalla:hover {
+    background-image: url(../img/steam\ deck\ pantalla.jpg);
+    height: 90%;
+    width: 90%;
 }
 
 .box5 {
@@ -246,7 +258,7 @@ body {
     align-items: center;
     /* margin-left: 5px; */
     padding-left: 6px;
-    box-shadow: -30px 0px 10px inset rgba(0, 0, 0, 0.534), -3px 5px 5px inset rgba(255, 255, 255, 0.322);
+    box-shadow: -30px 0px 10px inset rgba(0, 0, 0, 0.534), -3px 5px 5px inset rgba(255, 255, 255, 0.322), 50px 50px 70px;
 }
 
 .rombo {
@@ -372,7 +384,8 @@ body {
     border-top: 3px ridge rgb(22, 22, 22);
     border-right: 3px ridge rgb(24, 24, 24);
     border-radius: 0 60% 0 0;
-    box-shadow: 5px -3px 5px;
+    box-shadow: 2px -3px 10px;
+    margin-right: -2px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -412,14 +425,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    box-shadow: -30px 0px 10px inset rgba(0, 0, 0, 0.534), -3px 0 5px rgba(255, 255, 255, 0.267) inset;
+    box-shadow: -30px 0px 10px inset rgba(0, 0, 0, 0.534), -3px 0 5px rgba(255, 255, 255, 0.267) inset, 50px 50px 70px;
 }
 
 .agatopr4 {
     border-top: 3px ridge rgb(22, 22, 22);
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 60% 0 0 0;
-    box-shadow: -3px -3px 3px;
+    box-shadow: -2px -2px 10px;
+    margin-left: -2px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -431,7 +445,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6fr 1fr;
-    box-shadow: 30px -20px 10px inset rgba(0, 0, 0, 0.534), 3px -5px 5px rgba(255, 255, 255, 0.267) inset;
+    box-shadow: 30px -20px 10px inset rgba(0, 0, 0, 0.534), 3px -5px 5px rgba(255, 255, 255, 0.267) inset, 50px 50px 70px;
 }
 
 .agar1 {
@@ -444,7 +458,7 @@ body {
     border-bottom: 3px ridge rgb(22, 22, 22);
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 0 0 0 100%;
-    box-shadow: 5px -3px 5px inset, 0 3px 1px;
+    box-shadow: 2px -3px 6px inset;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
@@ -506,7 +520,9 @@ body {
     border-top: 3px ridge rgb(22, 22, 22);
     border-right: 3px ridge rgb(24, 24, 24);
     border-radius: 0 70% 0 0;
-    box-shadow: 8px -7px 5px;
+    box-shadow: 3px -3px 10px;
+    margin-top: -3px;
+    margin-right: -2px;
     background-color: rgb(10, 10, 10);
 }
 
@@ -514,8 +530,10 @@ body {
     border-top: 3px ridge rgb(22, 22, 22);
     border-left: 3px ridge rgb(24, 24, 24);
     border-radius: 70% 0 0 0;
-    box-shadow: -2px -5px 4px;
+    box-shadow: -2px -2px 6px;
     background-color: rgb(10, 10, 10);
+    margin-top: -3px;
+    margin-left: -2px;
 }
 
 .box13 {
@@ -526,7 +544,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 6fr 1fr;
-    box-shadow: -30px -20px 10px inset rgba(0, 0, 0, 0.534), -3px -5px 5px rgba(255, 255, 255, 0.267) inset;
+    box-shadow: -30px -20px 10px inset rgba(0, 0, 0, 0.534), -3px -5px 5px rgba(255, 255, 255, 0.267) inset, 50px 50px 70px, -50px 50px 70px;
 
 }
 
@@ -540,7 +558,7 @@ body {
     border-bottom: 3px ridge rgb(24, 24, 24);
     border-right: 3px ridge rgb(24, 24, 24);
     border-radius: 0 0 100% 0;
-    box-shadow: 1px 3px 1px, -2px -2px 5px inset;
+    box-shadow: -2px -2px 6px inset;
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
@@ -551,7 +569,7 @@ body {
     background-color: rgb(46, 46, 46);
     background-image: repeating-linear-gradient(-26deg, rgba(49, 49, 49, 0.25), rgba(44, 44, 44, 0.25) 2px, rgb(27, 27, 27) 3px, rgb(24, 24, 24) 7px);
     background-size: 6px 8px;
-    box-shadow: 0 -20px 10px inset rgba(0, 0, 0, 0.534);
+    box-shadow: 0px -20px 10px inset rgba(0, 0, 0, 0.534), 50px 50px 70px, -50px 50px 70px;
 }
 
 .agar4 {
